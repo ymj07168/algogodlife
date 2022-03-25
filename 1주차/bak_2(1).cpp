@@ -23,8 +23,8 @@ int main(void) {
 
 
 	int size = Wuniv.size();
-	int Wscore = Wuniv[9] + Wuniv[8] + Wuniv[7];
-	int Kscore = Kuniv[9] + Kuniv[8] + Kuniv[7];
+	int Wscore = Wuniv[size-1] + Wuniv[size-2] + Wuniv[size-3];
+	int Kscore = Kuniv[size-1] + Kuniv[size-2] + Kuniv[size-3];
 
 	cout << size <<" " << Wscore << " " << Kscore << "\n";
 
