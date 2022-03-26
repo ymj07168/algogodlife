@@ -5,7 +5,7 @@ for _ in range(n):
     nums.append(int(input()))
 
 nums.sort()  # 내장함수
-#nums = nums.sorted()  # 정렬된 리스트 반환
+#nums = sorted(nums)  # 정렬된 리스트 반환
 for i in range(n):
     print(nums[i])
 
