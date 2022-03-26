@@ -19,5 +19,3 @@ def top3(univ):
     return result
 
 print(top3(univ_k), top3(univ_w))
-
-#change
