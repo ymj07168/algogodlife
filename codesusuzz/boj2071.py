@@ -7,6 +7,10 @@
 두 부분 리스트를 다시 하나의 정렬된 리스트로 합병한다.
 https://i.stack.imgur.com/YlHqG.gif
 '''
+N = int(input())
+list = []
+for i in range(N):
+    list.append(int(input()))
 
 def merge_sort(arr):
     N = len(arr)
@@ -44,7 +48,7 @@ def merge_sort(arr):
         idx_2 += 1
         arr_idx += 1
 
+merge_sort(list)
 
-testcase = [6,8,3,9,10,1,2,4,7,5]
-merge_sort(testcase)
-print(testcase)
+for i in range(N):
+    print(list[i])
