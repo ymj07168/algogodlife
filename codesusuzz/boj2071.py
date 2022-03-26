@@ -49,6 +49,5 @@ def merge_sort(arr):
         arr_idx += 1
 
 merge_sort(list)
-
-for i in range(N):
+for i in range(len(list)):
     print(list[i])
