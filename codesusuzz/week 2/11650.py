@@ -35,4 +35,6 @@ arr = []
 for _ in range(N):
     a, b = map(int, input().split())
     arr.append((a,b))
-[print(x[0], x[1]) for x in sorted(arr)]
+[print(x[0], x[1]) for x in sorted(arr)] # ➡️ 이렇게도 쓸 수 있음
+
+# 내장함수가 알아서 첫번째 두번째 정렬 해주나보다 ㅎㅎ.. 부질없구먼~
