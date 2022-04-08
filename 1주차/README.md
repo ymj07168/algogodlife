@@ -8,4 +8,4 @@
 
 ## 회의내용
 * 스터디 계획서 수정
-* [백준5576번- 콘테스트](https://www.acmicpc.net/problem/5576)
+* [백준 5576번- 콘테스트](https://www.acmicpc.net/problem/5576)
