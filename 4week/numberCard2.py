@@ -5,14 +5,14 @@
 def firstIndex(list, n):
     start = 0
     end = len(list) - 1
-    fi = -1 # 못 찾았을 경우
+    fi = -1                 # 못 찾았을 경우 -1
 
     while start <= end:
         mid = (start + end) // 2
 
         if n == list[mid]:
             fi = mid
-            end = mid - 1   ## 최소 인덱스 찾기 위함
+            end = mid - 1   # 최소 인덱스 찾기 위함
         elif n > list[mid]:
             start = mid + 1
         else:
@@ -24,7 +24,7 @@ def firstIndex(list, n):
 def lastIndex(list, n):
     start = 0
     end = len(list) - 1
-    li = -1                 # 못 찾았을 경우 -1
+    li = -1                   # 못 찾았을 경우 -1
 
     while start <= end:
         mid = (start + end) // 2
