@@ -8,7 +8,7 @@ K, N = map(int, sys.stdin.readline().split())
 
 lan = [int(sys.stdin.readline()) for _ in range(K)]
 
-min = 1
+min = min(lan)
 max = max(lan)
 
 while min <= max:
